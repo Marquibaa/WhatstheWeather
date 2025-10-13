@@ -1,0 +1,10 @@
+:root {
+    --background-color: #e8e8e8;
+    --text-color: #121415;
+    --white-color: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+}

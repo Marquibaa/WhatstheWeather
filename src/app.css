@@ -1,0 +1,39 @@
+.header {
+    justify-items: center;
+    font-size: 25px;
+}
+
+.searchbar {
+    display: flex;
+    background-color: var(--white-color);
+    padding: 0px 300px;
+    border: 1px solid var(--text-color);
+    border-radius: 30px;
+    margin-top: 40px;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.searchplace {
+    flex: 1;
+    position: relative;
+    /* input stays still, dropdown absolute to this */
+}
+
+.aisuggestion {
+    border: 1px solid var(--text-color);
+    background-color: var(--white-color);
+    border-radius: 30px;
+    height: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.upbar {
+    display: flex;
+    color: gray;
+    padding-left: 20px;
+}
