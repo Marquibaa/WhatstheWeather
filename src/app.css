@@ -57,9 +57,12 @@
     border: 1px solid var(--text-color);
     background-color: var(--white-color);
     border-radius: 30px;
-    height: 300px;
     margin-left: 300px;
     margin-right: 300px;
+}
+
+.aicontent {
+    padding: 20px;
 }
 
 .upbar {

@@ -106,7 +106,7 @@ function App() {
         try {
             const model = ai.getGenerativeModel({ model: "gemini-2.0-flash" });
             const result = await model.generateContent(
-                `You are a traveler helper. Give brief instructions to travelers going to ${location} of what they should be aware of. Give only historical or usual precautions of the place, for example that you should always carry an umbrella in Belem do Para because it rains everyday.`
+                `You are a traveler helper. Big paragraph with instructions to travelers going to ${location} of what they should be aware of. Give only usual precautions of the place, for example that you should always carry an umbrella in Belem do Para because it rains everyday. Do that in mind that they are going this week, so pay attention to what season we are or currect general climates or natural disasters, without being specific about the date.`
             );
             const suggestionText = result.response.text();
             setAiSuggestion(suggestionText);
